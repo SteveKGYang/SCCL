@@ -2,7 +2,7 @@
 
 This repo contains our pytorch code for IEEE TAC accepted paper: "Cluster-Level Contrastive Learning for Emotion Recognition in Conversations". The architecture for our model is as follows:
 
-![Image text](https://github.com/SteveKGYang/SCCL/blob/main/fig/EA.pdf)
+![Image text](https://github.com/SteveKGYang/SCCL/blob/main/fig/SCCL.png)
 
 
 **Preparation:**
