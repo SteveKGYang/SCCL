@@ -1,11 +1,11 @@
-SCCL
+**SCCL**
 
 This repo contains our pytorch code for IEEE TAC accepted paper: "Cluster-Level Contrastive Learning for Emotion Recognition in Conversations". The architecture for our model is as follows:
 
-![avatar](./fig/EA.pdf)
+![Image text](https://github.com/SteveKGYang/SCCL/blob/main/fig/EA.pdf)
 
 
-Preparation:
+**Preparation:**
 1. Set up the Python 3.7 environment, and build the dependencies with the following code:
 pip install -r requirements.txt
 
@@ -14,7 +14,7 @@ https://github.com/microsoft/k-adapter
 and put the directory "fac-adapter" and "lin-adapter" under the directory ./SCCL/pretrained_models/.
 
 
-Training:
+**Training:**
 
 You can train the model with the following codes:
 
