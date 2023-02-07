@@ -1,3 +1,10 @@
+SCCL
+
+This repo contains our pytorch code for IEEE TAC accepted paper: "Cluster-Level Contrastive Learning for Emotion Recognition in Conversations". The architecture for our model is as follows:
+
+![avatar](./fig/EA.pdf)
+
+
 Preparation:
 1. Set up the Python 3.7 environment, and build the dependencies with the following code:
 pip install -r requirements.txt
@@ -20,6 +27,8 @@ python main.py --DATASET IEMOCAP --CUDA True --model_checkpoint roberta-facadapt
 Run on IEMOCAP with LinAdapter:
 python main.py --DATASET IEMOCAP --CUDA True --model_checkpoint roberta-linadapter --alpha 0.8 --NUM_TRAIN_EPOCHS 5 --BATCH_SIZE 4
 
+-------------------------------------------------------------------------------------------
+
 Run on MELD with LinAdapter:
 python main.py --DATASET MELD --CUDA True --model_checkpoint roberta-linadapter --alpha 1.0 --NUM_TRAIN_EPOCHS 3 --BATCH_SIZE 4
 
@@ -29,6 +38,8 @@ python main.py --DATASET MELD --CUDA True --model_checkpoint roberta-facadapter 
 Run on MELD with RoBERTa-Large:
 python main.py --DATASET MELD --CUDA True --model_checkpoint roberta-large --alpha 1.0 --NUM_TRAIN_EPOCHS 3 --BATCH_SIZE 4
 
+-------------------------------------------------------------------------------------------
+
 Run on EmoryNLP with RoBERTa-Large:
 python main.py --DATASET EmoryNLP --CUDA True --model_checkpoint roberta-large --alpha 0.8 --NUM_TRAIN_EPOCHS 5 --BATCH_SIZE 4
 
@@ -37,6 +48,8 @@ python main.py --DATASET EmoryNLP --CUDA True --model_checkpoint roberta-facadap
 
 Run on EmoryNLP with LinAdapter:
 python main.py --DATASET EmoryNLP --CUDA True --model_checkpoint roberta-linadapter --alpha 0.8 --NUM_TRAIN_EPOCHS 5 --BATCH_SIZE 4
+
+-------------------------------------------------------------------------------------------
 
 Run on DailyDialog with RoBERTa-Large:
 python main.py --DATASET DailyDialog --CUDA True --model_checkpoint roberta-large --alpha 0.8 --NUM_TRAIN_EPOCHS 5 --BATCH_SIZE 16
