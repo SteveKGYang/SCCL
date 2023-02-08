@@ -61,4 +61,15 @@ Run on DailyDialog with LinAdapter:
 python main.py --DATASET DailyDialog --CUDA True --model_checkpoint roberta-linadapter --alpha 0.8 --NUM_TRAIN_EPOCHS 5 --BATCH_SIZE 16
 
 
-**citation:**
+**Citation:**
+Please cite our paper as follows:
+
+@ARTICLE{10040720,
+  author={Yang, Kailai and Zhang, Tianlin and Alhuzali, Hassan and Ananiadou, Sophia},
+  journal={IEEE Transactions on Affective Computing}, 
+  title={Cluster-Level Contrastive Learning for Emotion Recognition in Conversations}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TAFFC.2023.3243463}}
