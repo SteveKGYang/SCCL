@@ -1,6 +1,6 @@
 **SCCL**
 
-This repo contains our pytorch code for IEEE TAC accepted paper: "Cluster-Level Contrastive Learning for Emotion Recognition in Conversations". The architecture for our model is as follows:
+This repo contains our pytorch code for IEEE TAC accepted paper: "[Cluster-Level Contrastive Learning for Emotion Recognition in Conversations](http://arxiv.org/abs/2302.03508)". The architecture for our model is as follows:
 
 ![Image text](https://github.com/SteveKGYang/SCCL/blob/main/fig/SCCL.png)
 
@@ -59,3 +59,6 @@ python main.py --DATASET DailyDialog --CUDA True --model_checkpoint roberta-faca
 
 Run on DailyDialog with LinAdapter:
 python main.py --DATASET DailyDialog --CUDA True --model_checkpoint roberta-linadapter --alpha 0.8 --NUM_TRAIN_EPOCHS 5 --BATCH_SIZE 16
+
+
+**citation:**
