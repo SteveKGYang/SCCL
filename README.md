@@ -9,7 +9,9 @@ This repo contains our pytorch code for IEEE TAC accepted paper: "[Cluster-Level
 1. Set up the Python 3.7 environment, and build the dependencies with the following code:
 pip install -r requirements.txt
 
-2. Download the released pre-trained adapter model from the K-Adapter paper(https://arxiv.org/abs/2002.01808):
+2. Download the data from https://drive.google.com/file/d/1b_ihQYKTAsO67I5LULMbMFBrDgat8bQN/view?usp=sharing.
+
+3. Download the released pre-trained adapter model from the K-Adapter paper(https://arxiv.org/abs/2002.01808):
 https://github.com/microsoft/k-adapter
 and put the directory "fac-adapter" and "lin-adapter" under the directory ./SCCL/pretrained_models/.
 
