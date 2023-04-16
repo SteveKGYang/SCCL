@@ -4,6 +4,9 @@ This repo contains our pytorch code for IEEE TAC accepted paper: "[Cluster-Level
 
 ![Image text](https://github.com/SteveKGYang/SCCL/blob/main/fig/SCCL.png)
 
+**Installation**
+
+You wiull need to `pip install torch==1.7.0+cu110 -f https://download.pytorch.org/whl/torch_stable.html`
 
 **Preparation:**
 1. Set up the Python 3.7 environment, and build the dependencies with the following code:

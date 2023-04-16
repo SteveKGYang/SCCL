@@ -19,8 +19,6 @@ from sklearn.metrics import f1_score, confusion_matrix, accuracy_score, classifi
 import torch.cuda.amp.grad_scaler as grad_scaler
 import torch.cuda.amp.autocast_mode as autocast_mode
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
-
 
 def train(epoch, model, optimizer, scheduler, loss_function, mode, data, batch_size, cuda, label_VAD, scaler):
     '''The training function for RobertaClassifier and AdapterRobertaClassifier.'''
